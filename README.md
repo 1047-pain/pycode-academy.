@@ -1,2 +1,0 @@
-# pycode-academy.
-Proyecto web
