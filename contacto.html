@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | PyCode Academy</title>
+
+    <meta name="description"
+        content="Contacta con PyCode Academy para conocer nuestros cursos de Python.">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-python">
+                    🐍
+                </span>
+
+                <div class="logo-text">
+
+                    <span class="logo-main">
+                        PyCode
+                    </span>
+
+                    <span class="logo-sub">
+                        ACADEMY
+                    </span>
+
+                </div>
+
+            </a>
+
+
+            <input type="checkbox" id="menu-toggle">
+
+            <label for="menu-toggle" class="menu-icon">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </label>
+
+
+            <ul class="menu">
+
+                <li>
+                    <a href="index.html">
+                        Inicio
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cursos.html">
+                        Cursos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contacto.html" class="active">
+                        Contacto
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= CONTACTO ================= -->
+
+        <section class="contact-section">
+
+            <div class="section-header">
+
+                <span class="section-tag">
+                    Estamos para ayudarte
+                </span>
+
+                <h1>
+                    Contáctanos
+                </h1>
+
+                <p>
+                    ¿Tienes preguntas sobre nuestros cursos?
+                    Escríbenos y conoce cómo puedes comenzar
+                    a aprender Python.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+
+                <!-- INFORMACIÓN -->
+
+                <div class="contact-info">
+
+
+                    <article class="info-card">
+
+                        <div class="info-icon">
+                            📧
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Correo electrónico
+                            </h3>
+
+                            <p>
+                                contacto@pycodeacademy.com
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="info-card">
+
+                        <div class="info-icon">
+                            📱
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                WhatsApp
+                            </h3>
+
+                            <p>
+                                +57 300 000 0000
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="info-card">
+
+                        <div class="info-icon">
+                            💻
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Modalidad
+                            </h3>
+
+                            <p>
+                                Formación virtual y aprendizaje
+                                mediante proyectos.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="info-card">
+
+                        <div class="info-icon">
+                            ⏰
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Atención
+                            </h3>
+
+                            <p>
+                                Lunes - Viernes<br>
+                                8:00 AM - 6:00 PM
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- REDES -->
+
+                    <div class="social-card">
+
+                        <h3>
+                            Síguenos
+                        </h3>
+
+                        <div class="social-links">
+
+                            <a href="#" class="social">
+                                📸 Instagram
+                            </a>
+
+                            <a href="#" class="social">
+                                📘 Facebook
+                            </a>
+
+                            <a href="#" class="social">
+                                💬 WhatsApp
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FORMULARIO -->
+
+                <div class="form-card">
+
+                    <h2>
+                        Envíanos un mensaje
+                    </h2>
+
+                    <p>
+                        Completa el formulario y nos pondremos
+                        en contacto contigo.
+                    </p>
+
+
+                    <form>
+
+                        <div class="form-group">
+
+                            <label for="nombre">
+                                Nombre completo
+                            </label>
+
+                            <input
+                                type="text"
+                                id="nombre"
+                                name="nombre"
+                                placeholder="Escribe tu nombre"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="correo">
+                                Correo electrónico
+                            </label>
+
+                            <input
+                                type="email"
+                                id="correo"
+                                name="correo"
+                                placeholder="ejemplo@correo.com"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="curso">
+                                Curso de interés
+                            </label>
+
+                            <select id="curso" name="curso">
+
+                                <option value="">
+                                    Selecciona un curso
+                                </option>
+
+                                <option value="basico">
+                                    Python Básico
+                                </option>
+
+                                <option value="intermedio">
+                                    Python Intermedio
+                                </option>
+
+                                <option value="avanzado">
+                                    Python Avanzado
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="mensaje">
+                                Mensaje
+                            </label>
+
+                            <textarea
+                                id="mensaje"
+                                name="mensaje"
+                                rows="5"
+                                placeholder="Escribe tu mensaje..."
+                            ></textarea>
+
+                        </div>
+
+
+                        <button
+                            type="submit"
+                            class="form-button"
+                        >
+                            Enviar mensaje
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="contact-cta">
+
+            <h2>
+                ¿Listo para comenzar?
+            </h2>
+
+            <p>
+                Da el primer paso y comienza a desarrollar
+                tus habilidades de programación.
+            </p>
+
+            <a href="cursos.html" class="btn btn-primary">
+                Ver cursos
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <h2>
+                    🐍 PyCode Academy
+                </h2>
+
+                <p>
+                    Aprende. Programa. Crea.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>
+                    Navegación
+                </h3>
+
+                <a href="index.html">
+                    Inicio
+                </a>
+
+                <a href="cursos.html">
+                    Cursos
+                </a>
+
+                <a href="contacto.html">
+                    Contacto
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 PyCode Academy
+            </p>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
